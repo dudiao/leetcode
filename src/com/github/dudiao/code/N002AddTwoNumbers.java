@@ -14,7 +14,7 @@ package com.github.dudiao.code;
  * @author songyinyin
  * @date 2020/7/19 下午 06:40
  */
-public class AddTwoNumbers {
+public class N002AddTwoNumbers {
 
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (l1 == null && l2 == null) {
