@@ -9,12 +9,13 @@ package com.github.dudiao.code;
 public class N509Fib {
 
     public static void main(String[] args) {
-        int n = 0;
+        int n = 1;
         System.out.println("斐波那契数，f(" + n + ") = " + fib(n));
     }
 
     public static int fib(int n) {
-        int[] arr = new int[n + 1];
+        int size = Math.max(n, 1) + 1;
+        int[] arr = new int[size];
         arr[0] = 0;
         arr[1] = 1;
         for (int i = 0; i <= n - 2; i++) {
